@@ -1,15 +1,13 @@
 import { StyleSheet, Text, View } from 'react-native';
-import React, { Component } from 'react';
+import React from 'react';
 
-export class Loading extends Component {
-  render() {
-    return (
-      <View style={styles.container}>
-        <Text>Loading</Text>
-      </View>
-    );
-  }
-}
+const Loading = () => {
+  return (
+    <View style={styles.container}>
+      <Text>Loading</Text>
+    </View>
+  );
+};
 
 const styles = StyleSheet.create({
   container: {

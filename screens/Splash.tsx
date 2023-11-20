@@ -1,16 +1,15 @@
-import 'react-native-url-polyfill/auto';
 import { StyleSheet, Text, View } from 'react-native';
 import React from 'react';
-import AuthProvider from './providers/AuthProvider';
-import Navigation from './screens/Navigation';
 
-export default function App() {
+const Splash = () => {
   return (
-    <AuthProvider>
-      <Navigation />
-    </AuthProvider>
+    <View style={styles.container}>
+      <Text>Splash</Text>
+    </View>
   );
-}
+};
+
+export default Splash;
 
 const styles = StyleSheet.create({
   container: {
